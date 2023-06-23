@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/max_way
+    password: 12
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  main:
+    web-application-type: none
+app:
+  jwt:
+    token:
+      access:
+        expiration: 86400000
+        key: 22MYlyBwOd$gXWUjlfZW0aA
+      refresh:
+        expiration: 604800000
+        key: daskdl*))(22MYlyBwOd$gXWUjlfZW0aA
